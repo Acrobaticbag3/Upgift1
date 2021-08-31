@@ -1,9 +1,7 @@
 p{
     color: blue; 
-    font-size: 15px;  
-    
+    font-size: 15px;     
 }
-
 body{
     background-color: peru;
 }
@@ -13,11 +11,21 @@ body{
 }
 .part1{
     border: 20px solid gray;
-}   
+}
 .part3Coulor{
     background-color: honeydew;
     text-align: center;
 }
 .part4{
     text-align: right;
+}
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 15% 35% 25% auto;
+    grid-template-areas: 
+     "header main main header"
+     "sidebar . . sidebar"
+     "footer footer footer footer"
+    ;
 }
