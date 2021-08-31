@@ -1,9 +1,23 @@
 p{
     color: blue; 
-    font-size: 15px; 
+    font-size: 15px;  
+    
 }
 
+body{
+    background-color: peru;
+}
 .notSogreentext{
     Color: darkorange; 
     font-size: 22px;
+}
+.part1{
+    border: 20px solid gray;
+}   
+.part3Coulor{
+    background-color: honeydew;
+    text-align: center;
+}
+.part4{
+    text-align: right;
 }
